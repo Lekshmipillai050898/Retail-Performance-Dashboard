@@ -1,4 +1,4 @@
-# Retail-Performance-Dashboard
+# Self-Service Analytics for Smarter Retail Decisions
 
 ## Project Overview
 This project presents a comprehensive Regional Sales Dashboard, designed to provide actionable insights into sales performance, customer demographics, product categories, and operational metrics. The dashboard aggregates and visualizes key business data, enabling stakeholders to monitor trends, identify growth opportunities, and optimize decision-making.
