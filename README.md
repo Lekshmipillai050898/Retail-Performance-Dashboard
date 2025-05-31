@@ -4,26 +4,29 @@
 This project presents a comprehensive Regional Sales Dashboard, designed to provide actionable insights into sales performance, customer demographics, product categories, and operational metrics. The dashboard aggregates and visualizes key business data, enabling stakeholders to monitor trends, identify growth opportunities, and optimize decision-making.
 
 ## Objectives
-Visualize regional sales, profit, and order data for better business understanding.
 
-Segment sales performance by state, product sub-category, shipping mode, and customer demographics.
+1.Consolidate and clean disparate data sources for unified analysis.
+2.Visualize sales, profit, and order metrics by state, product, customer segment, and shipping mode.
+3.Identify key trends, high-performing segments, and areas for improvement.
+4.Enable data-driven decision-making for sales and marketing strategies.
 
-Track key performance indicators (KPIs) such as net sales, profit, average transaction value, and customer conversion rates.
+## Tools Used
 
-Identify trends and patterns over time to support strategic planning.
+1.SQL: Data cleaning, transformation, and joining of multiple datasets.
+2.Microsoft Power BI: Data visualization and dashboard creation.
+3.Microsoft Excel: Raw data storage and initial data exploration
 
-## Data Sources
-The dashboard utilizes sales data that includes:
+## Data Sources & Preparation
 
-State-wise sales, profit, and order quantities
+1.Sales Data: Two Excel sheets covering different time periods, merged to provide a complete sales history.
+2.Customer Data: Four Excel sheets, each representing customer information from different regions.
+3.Product Data: One Excel file containing product details and categories.
 
-Product sub-categories and their contribution to sales
+## Data Preparation Workflow:
 
-Customer demographics (age categories)
-
-Shipping modes and their usage
-
-Monthly trends in transaction values and order volumes
+> All Excel files were imported into SQL.
+> SQL, data was cleaned (removing duplicates, handling missing values), standardized, and joined across sales, customer, and product tables using appropriate keys.
+> The consolidated dataset was exported and imported into Power BI for visualization.
 
 ## Key Features & Analysis
 
